@@ -10,6 +10,6 @@ export class Line {
     }
   
     toString() {
-      return '(' + this.origin.toString() + ', ' + this.target.toString() + ')';
+      return this.origin.toString() + ' -> ' + this.target.toString();
     }
 }
