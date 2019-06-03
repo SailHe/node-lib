@@ -1,6 +1,6 @@
 {
   "name": "node-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "@babel/preset-env": "^7.4.5"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.4"
+    "@babel/polyfill": "^7.4.4",
+    "jQuery": "^1.7.4"
   }
 }
